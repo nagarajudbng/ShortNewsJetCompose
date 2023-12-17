@@ -15,4 +15,10 @@ object Dependencies {
     val extJunit by lazy {"androidx.test.ext:junit:${Versions.extJunit}"}
     val composeUITool by lazy {"androidx.compose.ui:ui-tooling"}
     val composeUITest by lazy {"androidx.compose.ui:ui-test-manifest"}
+    val material by lazy {"com.google.android.material:material:${Versions.material}"}
+    val appcompact by lazy {"androidx.appcompat:appcompat:${Versions.appcompact}"}
+}
+
+object Modules{
+    const val utilities = ":utilities"
 }
