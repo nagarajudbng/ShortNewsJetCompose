@@ -1,9 +1,9 @@
 name: AndroidBuild
 on:
   pull_request:
-    branch: [ main ]
+    branch: [ main,newAndroidStudio ]
   push:
-    branch: [ main ]
+    branch: [ main,newAndroidStudio ]
 
 jobs:
   build:
