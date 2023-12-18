@@ -13,6 +13,6 @@ object Versions {
     const val espressoCore = "3.5.1"
     const val composeBom2="2022.10.00"
     const val testJunit="1.1.5"
-    const val material="1.8.0"
+    const val material="1.10.0"
     const val appcompact="1.6.1"
 }
