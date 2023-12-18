@@ -44,11 +44,7 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.1"
     }
-    packaging {
-        resources {
-            excludes += "/META-INF/{AL2.0,LGPL2.1}"
-        }
-    }
+
 }
 
 dependencies {
@@ -71,7 +67,7 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
     // implicate
-    implementation(project(Modules.utilities))
+//    implementation(project(Modules.utilities))
 
     //Hilt
     implementation(Dependencies.hiltAndroid)
